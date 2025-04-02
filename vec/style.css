@@ -1,0 +1,8 @@
+form{
+    border: 2px solid black;
+    display: flex;
+    padding: 10px;
+}
+input{
+    border: 1px solid black;;
+}

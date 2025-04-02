@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header><h1>muj formular</h1></header>
+    <main>
+        <form action="https://edu.voskh.cz/vyuka/">
+            <label for="firstname">kresti jmeno</label>
+            <input type="text" name="firstname" id="firstname" placeholder="zadej kresti jmeno" required>
+            <label for="lasttname">prijmeni</label>
+            <input type="text" name="lastname" id="lastname" required>
+            <label for="age">vek</label>
+            <input type="number" name="age" id="age" value="15" required>
+            <label for="email">email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="heslo">heslo</label>
+            <input type="password" name="heslo" id="heslo" required>
+            <label for="interests">zajmy</label>
+            <input type="checkbox" name="interests[]" id="sport" value="sport">
+            <label for="sport">sport</label>
+            <input type="checkbox" name="interests[]" id="film" value="film">
+            <label for="film">filmy</label>
+            <input type="checkbox" name="interests[]" id="games" value="games">
+            <label for="games">hry</label>
+            <input type="checkbox" name="language[]" id="cz" value="cz">
+            <label for="cz">cestina</label>
+            <input type="checkbox" name="language[]" id="an" value="an">
+            <label for="an">anglictina</label>
+            <input type="checkbox" name="language[]" id="de" value="de">
+            <label for="de">nemcina</label>
+            <label for="transport">doprava</label>
+            <select name="transport" id="transport">
+                <option value="walking">pesky</option>
+                <option value="cars">automobilem</option>
+                <option value="on bike">on bike</option>
+            </select>
+            <button type="submit">Registruj</button>
+        </form>
+    </main>
+    <footer>&copy;2025, Als Numchin</footer>
+</body>
+</html>
